@@ -16,7 +16,7 @@ gradle in app
 implementation 'com.mt312:onetouchswipemenu:1.0'
 ```
 
-# Swipable layout
+# Swipeable layout
 
 ```
 <androidx.constraintlayout.widget.ConstraintLayout
