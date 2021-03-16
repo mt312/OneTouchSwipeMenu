@@ -8,12 +8,16 @@ Swipe menu for RecrclerView
 
 gradle
 ```
-maven { url 'https://raw.github.com/mt312/OneTouchSwipeMenu/master/repository' }
+repositories {
+    maven { url 'https://raw.github.com/mt312/OneTouchSwipeMenu/master/repository' }
+}
 ```
 
 gradle in app
 ```
-implementation 'com.mt312:onetouchswipemenu:1.0'
+dependencies {
+    implementation 'com.mt312:onetouchswipemenu:1.0'
+}
 ```
 
 # Swipeable layout
