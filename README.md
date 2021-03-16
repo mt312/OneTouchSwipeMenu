@@ -7,14 +7,14 @@ Swipe menu for RecrclerView
 # build.gradle
 
 gradle
-```
+```groovy
 repositories {
     maven { url 'https://raw.github.com/mt312/OneTouchSwipeMenu/master/repository' }
 }
 ```
 
 gradle in app
-```
+```groovy
 dependencies {
     implementation 'com.mt312:onetouchswipemenu:1.0'
 }
@@ -22,7 +22,7 @@ dependencies {
 
 # Swipeable layout
 
-```
+```xml
 <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/foregroundKnobLayout" />
         
